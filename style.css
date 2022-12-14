@@ -12,16 +12,21 @@
 body {
   width: 100%;
   background: #242D38;
- 
+  
 }
+ #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
 #wrapper {
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1000px;
+  width: 1000px;
   row-gap: 80px;
   column-gap: 20px;
   padding: 80px;
